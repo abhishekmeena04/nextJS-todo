@@ -1,0 +1,64 @@
+.table-wrapper{
+    width: 100%;
+}
+
+.main-table{
+    display: block;
+    overflow: hidden;
+    table-layout: auto;
+    margin: auto;
+    overflow-x: auto;
+    border-collapse: collapse;
+    box-shadow: 0 10px 10px #ccc;
+    white-space: nowrap;
+    width: 100em;
+    max-width: 70vw;
+}
+
+.main-table thead{
+    background-color: #ccc;
+    color: #222;
+}
+
+.main-table th, 
+.main-table td{
+    padding: .85rem;
+}
+
+.main-table td{
+    border-top: 0.5px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.main-table tbody tr{
+    background-color: #e7e7e7;
+}
+
+.main-table tbody tr:hover{
+    background-color: #eee;
+}
+
+.main-table .expand{
+    width: 50%;
+}
+
+.action_btn{
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+}
+
+.action_btn span{
+    cursor: pointer;
+}
+
+.action_btn .delete_btn{
+    color: red;
+}
+
+.action_btn .edit_btn{
+    color:  rgb(0, 51, 255);
+}
+
